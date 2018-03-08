@@ -31,6 +31,7 @@ public class MyDispatcherServlet extends HttpServlet {
     
 	private Properties properties = new Properties();
 	
+	
 	private Map<String, Object> ioc = new HashMap<String, Object>();
 	
 	private List<String> classNames = new ArrayList<String>();
